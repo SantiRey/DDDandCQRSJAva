@@ -10,6 +10,6 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class FoundsDepositedEvent extends BaseEvent {
+public class FundsWithdrawnEvent extends BaseEvent {
     private double amount;
 }

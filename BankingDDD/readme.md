@@ -1,3 +1,9 @@
+CQRS -> command Query responsability Segregation
+Scaling, Performance, Simplicity
+
+Query: retorna data; no actuliza nada (lectura)
+Command: Actualiza insertar eliminar (retornar)
+
 Messages types:
 
 -> Commands -> exectu action
