@@ -5,10 +5,13 @@ import com.banking.cqrs.core.commands.CommandHandlerMethod;
 import com.banking.cqrs.core.infrastructure.CommandDispacher;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
-
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+//Mediator Implement
 @Service
-public class AccountCommandDispacher implements CommandDispacher {
+public class AccountCommandDispatcher implements CommandDispacher {
     private final Map<Class<? extends BaseCommand>, List<CommandHandlerMethod>> routes = new HashMap<>();
 
     @Override
